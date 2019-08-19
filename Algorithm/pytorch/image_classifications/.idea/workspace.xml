@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b605704-ca46-4153-aab0-770ed158106b" name="Default Changelist" comment="" />
+    <list default="true" id="8b605704-ca46-4153-aab0-770ed158106b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../培训生工作计划表.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../工作安排.docx" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +117,7 @@
     <option name="totallyTimeSpent" value="61517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
