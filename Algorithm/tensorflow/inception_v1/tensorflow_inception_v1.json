@@ -1,0 +1,31 @@
+{
+	"name":"inception_v1",
+	
+	
+	"image":{
+		"tensorflow":"1.13",
+	    "python":"python3", 
+	    "gpu":"True",
+
+	"exec_dir":"/root/Algorithm/Tensorflow/image_classification/",
+	"exec_script":"/root/Algorithm/Tensorflow/image_classification/inception_v1.py",
+    "dataset_path":"/root/Dataset/my-data/",
+	"saved_model_path":"/root/output/inception_v1/models_inception/",
+	"log_path":"/root/output/inception_v1/",
+	
+	"exec_parameter":[
+		{"key":"image_type","value":".jpg","desc":"image format"},
+		{"key":"train_label_path","value":"./dataset/train/train.csv",
+		  "desc":"Store location information and label information of training images in image classification"},
+	    {"key":"val_label_path","value":"./dataset/val/val.csv",
+	      "desc":"Store location information and label information of validating images in image classification"},
+        {"key":"base_lr","value":"0.01","desc":"initial learning rate"},
+        {"key":"max_steps","value":"10000","desc":"the number of training iterations"},
+        {"key":"snapshot","valule":"2000","desc":"every snapshot to save the latest checkpoint file"},
+		{"key":"log_step","value":"100", "desc":"every log_step to show results in terminal"}
+],
+	
+	"environment":[],
+
+	"description":"None"
+}
