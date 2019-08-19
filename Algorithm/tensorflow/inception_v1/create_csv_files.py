@@ -1,12 +1,15 @@
 # -*-coding:utf-8-*-
 import os
 import os.path
-
 import csv
-
 import random
+import argparse
 
-
+parse = argparse.ArgumentParser(description="input of the programm")
+parse.add_argument("-dp","--data_path",default='./dataset/train',type=str)
+parse.add_argument("-lp","--label_path",default='./dataset/train/train.txt',type=str)
+parse.add_argument("-cp","--csv_path",default='./dataset/train/train.csv',type=str,help="full path to save the created csv file")
+args = parse.parse_args()
 #解析文件夹下子文件夹数目
 def get_number_of_classification(filepath):
     for path, dirnames, _ in os.walk(filepath):
@@ -52,8 +55,7 @@ def write_to_csv(source_filepath,target_filepath):
 
 
 def main():
-    write_to_csv('./dataset/train/','./dataset/train/train.csv')
-    write_to_csv('./dataset/val', './dataset/val/val.csv')
+    write_to_csv(args.data_path, args.csv_path)
 
 if __name__ == '__main__':
     main()

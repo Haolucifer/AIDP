@@ -1,19 +1,17 @@
 # -*-coding:utf-8-*-
 import os
 import os.path
-
 import csv
-
 import random
+import argparse
 
-
+parse = argparse.ArgumentParser(description="input of the programm")
+parse.add_argument("-dp","--data_path",default='./dataset/train',type=str)
+parse.add_argument("-lp","--label_path",default='./dataset/train/train.txt',type=str)
+parse.add_argument("-cp","--csv_path",default='./dataset/train/train.csv',type=str,help="full path to save the created csv file")
+args = parse.parse_args()
 #解析文件夹下子文件夹数目
 def get_number_of_classification(filepath):
-	'''
-	获取图像类别总数
-	args:
-	     filepath:数据集的路径
-	'''
     for path, dirnames, _ in os.walk(filepath):
         break
     for dirname in dirnames:
@@ -26,13 +24,6 @@ def get_number_of_classification(filepath):
 
 #给每个类别定义标签
 def get_classification_label(dirnames, num_of_labels):
-	'''
-	将数据的类型与对应的标签值存入字典中
-	此函数接受来自get_number_of_classification(filepath)的返回值
-	args:
-	     dirnames:数据集类别名称
-	     num_of_labels:总共的图像类别数
-	'''
     classification_label = {}
     num = 0
     for dirname in dirnames:
@@ -64,8 +55,7 @@ def write_to_csv(source_filepath,target_filepath):
 
 
 def main():
-    write_to_csv('./dataset/train/','./dataset/train/train.csv')
-    write_to_csv('./dataset/val', './dataset/val/val.csv')
+    write_to_csv(args.data_path, args.csv_path)
 
 if __name__ == '__main__':
     main()

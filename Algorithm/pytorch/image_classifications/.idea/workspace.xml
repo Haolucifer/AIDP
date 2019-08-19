@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b605704-ca46-4153-aab0-770ed158106b" name="Default Changelist" comment="" />
+    <list default="true" id="8b605704-ca46-4153-aab0-770ed158106b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../tensorflow/inception_v1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow/inception_v1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow/inception_v1/create_csv_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow/inception_v1/create_csv_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow/inception_v1/create_tf_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow/inception_v1/create_tf_record.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../算法简介/~$ception_v1_v2.docx" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +52,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-29" />
-    <option name="y" value="-25" />
+    <option name="x" value="-14" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -59,12 +63,22 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="image_classifications" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_classifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="D:/git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tensorflow/inception_v1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -107,17 +121,18 @@
       <workItem from="1566090290271" duration="1768000" />
       <workItem from="1566110351949" duration="1185000" />
       <workItem from="1566177085702" duration="588000" />
+      <workItem from="1566193615578" duration="1216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61517000" />
+    <option name="totallyTimeSpent" value="62733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
