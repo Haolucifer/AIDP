@@ -59,7 +59,7 @@ MobileNet用两个超参数来控制网络计算速度与准确度之间的平�
 
 # **ResNet**
 
-## **ResNet简介**
+## **Introduction**
 ResNet由微软研究院的何凯明等4名华人提出，通过使用Residual Unit成功训练152层深的神经网络，在ILSVRC 2015比赛中获得了冠军，取得3.57%的top5错误率，同时参数量却比VGGNet低，效果非常突出。ResNet的结构可以极快地加速超深神经网络的训练，模型的准确率也有非常大的提升。本文档着重介绍ResNet的50层算法结构。
 
 ## **Residual Unit**
@@ -88,7 +88,7 @@ ResNet由多个Residual Unit（残差模块）构成。正是由于残差模块�
 
 # **VGG**
 
-## **VGG简介**
+## **Introduction**
 VGG模型是2014年ILSVRC竞赛的第二名，第一名是GoogLeNet。
 
 ## **VGG的特点**
