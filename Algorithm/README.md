@@ -10,8 +10,4 @@ GoogleNet参数为500万个，AlexNet参数个数是GoogleNet的12倍，VGGNet�
 最原始的inception结构如图所示，该结构将CNN中常用的卷积（1x1，3x3，5x5）、池化操作（3x3）堆叠在一起（卷积、池化后的尺寸相同，将通道相加），一方面增加了网络的宽度，另一方面也增加了网络对尺度的适应性。
 不同尺寸的卷积层既能够提取输入特征的细节信息又可以增加特征提取的感受野，同时，池化操作用以减少空间大小，降低过度拟合。
 
-<div style="align: center">
-<img src='网络结构图/inception_1.png' width="600px" div align=center />
-</div>
-
-
+<img src='网络结构图/inception_1.png' width="600px"/>
