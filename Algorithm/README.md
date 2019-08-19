@@ -22,11 +22,11 @@ GoogleNet参数为500万个，AlexNet参数个数是GoogleNet的12倍，VGGNet�
 ## **inception_v2**
 大尺寸的卷积核可以带来更大的感受野，但也意味着会产生更多的参数，比如5x5卷积核的参数有25个，3x3卷积核的参数有9个，前者是后者的25/9=2.78倍。因此，GoogLeNet团队提出可以用2个连续的3x3卷积层组成的小网络来代替单个的5x5卷积层，即在保持感受野范围的同时又减少了参数量，如图所示：
 
-<img src='网络结构图/inception_5.png' width="400px"/>
+<img src='网络结构图/inception_5.png' width="200px"/>
 
 接着，GoogLeNet又考虑是否可以以更小的卷积操作来代替3x3卷积呢，因此，他们又设计出如图下图所示的卷积，即用3个3x1代替一个3x3卷积。
 
-<img src='网络结构图/inception_6.png' width="400px"/>
+<img src='网络结构图/inception_6.png' width="200px"/>
 
 因此，任意nxn的卷积都可以通过1xn卷积后接nx1卷积来替代。
 
@@ -122,6 +122,6 @@ VGGNet的结构如下图所示，它共有五个结构相似，差异不大的�
 
  以VGG16为例，简化其网络结构图如下：
  
- <img src='网络结构图/VGG_4.png' width="400px"/>
+ <img src='网络结构图/VGG_4.png' width="300px"/>
  
  
